@@ -1,0 +1,24 @@
+{
+  "name": "remark-rewrite-headers",
+  "version": "1.0.0",
+  "description": "remark plugin to change header levels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strugee/remark-rewrite-headers.git"
+  },
+  "keywords": [
+    "remark",
+    "header",
+    "markdown"
+  ],
+  "author": "Alex Jordan <alex@strugee.net>",
+  "license": "LGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/strugee/remark-rewrite-headers/issues"
+  },
+  "homepage": "https://github.com/strugee/remark-rewrite-headers#readme"
+}
