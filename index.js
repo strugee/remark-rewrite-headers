@@ -20,7 +20,7 @@ var select = require('unist-util-select');
 function rewrite(ast, file, next) {
 	select(ast, 'heading').forEach(function(node) {
 		// TODO: should we refuse if the depth is 6?
-		node.depth -= 1;
+		node.depth += 1;
 	});
 
 	next();
