@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/strugee/remark-rewrite-headers/issues"
   },
-  "homepage": "https://github.com/strugee/remark-rewrite-headers#readme"
+  "homepage": "https://github.com/strugee/remark-rewrite-headers#readme",
+  "dependencies": {
+    "unist-util-select": "^1.5.0"
+  }
 }
