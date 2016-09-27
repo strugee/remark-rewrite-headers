@@ -15,10 +15,10 @@
 
 'use strict';
 
-var select = require('unist-util-select');
+var visit = require('unist-util-visit');
 
 function rewrite(ast, file, next) {
-	select(ast, 'heading').forEach(function(node) {
+	visit(ast, 'heading', function(node) {
 		// TODO: should we refuse if the depth is 6?
 		node.depth += 1;
 	});
