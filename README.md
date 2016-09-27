@@ -20,7 +20,7 @@ processor.process([
     '# Some Markdown',
     'The above will become an `<h2>` althouth normally it would be an `<h1>`.',
 	'## Some more Markdown',
-	'Ditto with the above - this one'll become an `<h3>`.'
+	'Ditto with the above - this one\'ll become an `<h3>`.'
 ].join('\n'));
 ```
 
