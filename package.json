@@ -15,7 +15,7 @@
     "header",
     "markdown"
   ],
-  "author": "Alex Jordan <alex@strugee.net>",
+  "author": "AJ Jordan <alex@strugee.net>",
   "license": "LGPL-3.0+",
   "bugs": {
     "url": "https://github.com/strugee/remark-rewrite-headers/issues"
