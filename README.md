@@ -2,6 +2,10 @@
 
 [remark][1] plugin to change header levels (`<h1>`s to `<h2>`s, `<h2>`s to `<h3>`s, etc.)
 
+## Deprecated
+
+Use [remark-behead][] instead, which is more flexible and better-maintained.
+
 ## Installation
 
     npm install remark-rewrite-headers
@@ -33,3 +37,4 @@ LGPL 3.0+
 AJ Jordan <alex@strugee.net>
 
  [1]: https://github.com/wooorm/remark
+ [remark-behead]: https://www.npmjs.com/package/remark-behead
